@@ -14,8 +14,7 @@ window.onload = () => {
             err.style.display = "inline"
         }else{
             err.style.display = "none"
-            alert(review)
-            window.location.replace("/index.html")
+            window.location.replace("/good.html")
         }
     }
 
