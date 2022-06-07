@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#logo{
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+#logo img{
+    height: 50px;
+    width: 50px;
+    grid-column: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#logo #name{
+    color: #1D1F23;
+    font-size: 46px;
+    font-style: italic;
+    grid-column: 2;
+}
+
+.foodlist{
+    display: grid;
+    margin: 30px 10% 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.food_cell{
+    display: grid;
+    row-gap: 5px;
+    border: 1px #E7E7EA solid;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+    transition: box-shadow .5s;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.food_cell:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.food_img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food_name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.food_order{
+    margin: 10px 25%;
+    padding: 5px;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    border: 1px #E7E7EA solid;
+    color: black;
+    transition: background-color .5s, color .5s;
+    background-color: white;
+}
+
+.food_order:hover{
+    background-color: #5168D2;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1D1F23;
+    font-size: 24px;
+    transition: color 1s;
+}
+
+footer a:hover{
+    color: blue;
+}

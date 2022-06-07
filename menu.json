@@ -1,0 +1,34 @@
+{
+    "menu": [
+        {
+            "img": "fries",
+            "name": "Картошка Фри",
+            "price": 20
+        },
+        {
+            "img": "cola",
+            "name": "Кока-Кола",
+            "price": 30
+        },
+        {
+            "img": "brg",
+            "name": "Бургер",
+            "price": 40
+        },
+        {
+            "img": "fries",
+            "name": "Картошка Фри",
+            "price": 20
+        },
+        {
+            "img": "cola",
+            "name": "Кока-Кола",
+            "price": 30
+        },
+        {
+            "img": "brg",
+            "name": "Бургер",
+            "price": 40
+        }
+    ]
+}
