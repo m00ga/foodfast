@@ -1,35 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-header {
-    display: grid;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-#logo {
-    grid-column: 2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-}
-
-#logo img {
-    height: 50px;
-    width: 50px;
-    grid-column: 1;
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
-}
-
-#logo #name {
-    color: #1D1F23;
-    font-size: 46px;
-    font-style: italic;
-    grid-column: 2;
-}
+@import "logo.css";
 
 #base {
     margin: 10% 30%;
